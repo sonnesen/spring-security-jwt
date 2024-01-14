@@ -1,0 +1,10 @@
+jwt:
+  private:
+    key: classpath:app.key
+  public:
+    key: classpath:app.pub
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: TRACE
